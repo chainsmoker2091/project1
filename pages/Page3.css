@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f7;
+  }
+  
+  .discussion-board {
+    width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .discussion-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .discussion-header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .discussion-header p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #cce0ff;
+  }
+  
+  .discussion-input {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .discussion-input textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none;
+    font-size: 14px;
+  }
+  
+  .discussion-input button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .discussion-comments {
+    padding: 10px;
+  }
+  
+  .comment {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .comment-content {
+    margin-bottom: 5px;
+  }
+  
+  .comment-footer {
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .comment-actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .discussion-footer {
+    position: fixed; /* Fixed positioning to always be visible */
+    top: 50%; /* Align to the vertical center of the viewport */
+    left: 0; /* Stick to the far left */
+    transform: translateY(-50%); /* Adjust for exact vertical centering */
+    padding: 10px;
+  }
+  
+  .arrow-link {
+    text-decoration: none;
+    font-size: 18px;
+  color:black;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px; 
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .arrow-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+    background-color: #f0f8ff;
+  }
+  
